@@ -1,0 +1,103 @@
+{
+  "name": "Executive Dark Luxury Theme",
+  "dataColors": [
+    "#00D2FF",
+    "#3B82F6",
+    "#60A5FA",
+    "#8B5CF6",
+    "#10B981",
+    "#F59E0B",
+    "#EF4444"
+  ],
+  "background": "#0F172A",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#00D2FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 14,
+            "bold": true,
+            "alignment": "left"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#132448" } }
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1E3A8A" } },
+            "radius": 10
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "value": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 30,
+            "bold": true,
+            "horizontalAlignment": "center"
+          }
+        ],
+        "label": [
+          {
+            "fontColor": { "solid": { "color": "#7DD3FC" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 14,
+            "bold": true,
+            "position": "aboveValue"
+          }
+        ],
+        "fillCustom": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#38BDF8" } },
+            "backColor": { "solid": { "color": "#1E293B" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 13,
+            "bold": true
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": { "solid": { "color": "#FFFFFF" } },
+            "fontColorSecondary": { "solid": { "color": "#F8FAFC" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 12
+          }
+        ],
+        "total": [
+          {
+            "fontColor": { "solid": { "color": "#38BDF8" } },
+            "bold": true
+          }
+        ]
+      }
+    }
+  }
+}
